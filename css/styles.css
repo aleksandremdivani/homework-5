@@ -22,7 +22,6 @@ nav {
   text-align: center;
 }
 .sign-up-btn {
-  background-color: red;
   background: linear-gradient(#cd1a10 0%, #ff803c 100%);
   border-radius: 20px;
   padding: 15px 25px;
@@ -55,8 +54,99 @@ main {
   font-size: 46px;
   margin-bottom: 16px;
 }
-.h1{
-    font-weight: 700;
-    font-size: 86px;
-    margin-bottom: 16px;
+.h1 {
+  font-weight: 700;
+  font-size: 86px;
+  margin-bottom: 16px;
+}
+.main-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  height: 70px;
+}
+.destinations {
+  width: 1180px;
+  height: 1054px;
+  margin: auto;
+  text-align: center;
+}
+.malaysia-card,
+.secondary-cards {
+  display: inline-block;
+  height: 626px;
+  width: 580px;
+  vertical-align: middle;
+}
+.dubai,
+.greece {
+  width: 280px;
+  height: 306px;
+  display: inline-block;
+  margin-bottom: 11px;
+}
+.singapore {
+  width: 580px;
+  height: 306px;
+  background: linear-gradient(rgba(30, 30, 30, 0.56)),
+    url("../images/singapore-img.jpg");
+  position: relative;
+}
+.malaysia-card {
+  background: linear-gradient(rgba(30, 30, 30, 0.56)),
+    url("../images/malaysia-img.jpg");
+  background-size: cover;
+  position: relative;
+}
+h2 {
+  margin-bottom: 36px;
+  font-weight: 200;
+  font-size: 46px;
+}
+h3 {
+  font-size: 46px;
+  font-weight: 400;
+  font-family: "Water Brush", cursive;
+  margin-top: 76px;
+  color: #cd1a40;
+}
+.secondary-cards {
+  margin-left: 10px;
+}
+.greece {
+  margin-left: 16px;
+  background: linear-gradient(rgba(30, 30, 30, 0.56)),
+    url("../images/greece-img.jpg");
+  position: relative;
+}
+.dubai {
+  background: linear-gradient(rgba(30, 30, 30, 0.56)),
+    url("../images/dubai-img.jpg");
+  position: relative;
+}
+.card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-btn {
+  text-align: center;
+  background: linear-gradient(#cd1a10 0%, #ff803c 100%);
+  border-radius: 20px;
+  padding: 16px 17px;
+  color: white;
+  display: inline-block;
+}
+.card-text {
+  font-size: 46px;
+  font-weight: 400;
+  font-family: "water brush";
+  color: #fff;
+}
+.fixed-item {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
 }
