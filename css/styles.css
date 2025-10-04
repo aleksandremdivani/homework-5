@@ -1,0 +1,51 @@
+header {
+  height: 100px;
+  padding: 20px 90px;
+}
+nav {
+  display: inline-block;
+  margin-left: 140px;
+  margin-right: 110px;
+}
+.li {
+  display: inline-block;
+  margin-right: 50px;
+}
+.header-nav {
+  color: #fff;
+}
+.sign-in-btn,
+.sign-up-btn {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+.sign-up-btn {
+  background-color: red;
+  background: linear-gradient(#cd1a10 0%, #ff803c 100%);
+  border-radius: 20px;
+  padding: 15px 25px;
+}
+.sign-in-btn {
+  margin-right: 30px;
+}
+main {
+  background-image: url("../images/main-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+  position: relative;
+}
+.main-card {
+  top: 209px;
+  left: 93px;
+  height: 390px;
+  width: 500px;
+  border: #fff 1px solid;
+  position: absolute;
+}
+.main-card-title,
+.h1,
+.main-card-text {
+  color: #fff;
+}
