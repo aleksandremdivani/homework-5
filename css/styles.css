@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Water+Brush&display=swap");
 header {
   height: 100px;
   padding: 20px 90px;
@@ -41,11 +42,21 @@ main {
   left: 93px;
   height: 390px;
   width: 500px;
-  border: #fff 1px solid;
   position: absolute;
 }
 .main-card-title,
 .h1,
 .main-card-text {
   color: #fff;
+}
+.main-card-title {
+  font-family: "Water Brush", cursive;
+  font-weight: 400;
+  font-size: 46px;
+  margin-bottom: 16px;
+}
+.h1{
+    font-weight: 700;
+    font-size: 86px;
+    margin-bottom: 16px;
 }
